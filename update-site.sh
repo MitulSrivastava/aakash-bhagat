@@ -1,4 +1,16 @@
 #!/bin/bash
+# ==============================================================================
+# 🚀 AUTOMATIC FRAMER SYNC SCRIPT
+# ==============================================================================
+# HOW TO USE THIS SCRIPT:
+# 1. Open your Framer canvas and make your design changes (or update resume link).
+# 2. Click "Publish" on your Framer site (actuallyaakash.framer.website).
+# 3. Open your terminal in this folder and simply run: 
+#      ./update-site.sh
+# 
+# That's it! It is fully automated. This script will automatically download the 
+# fresh pages, remove the Framer badges, and push it to Vercel for you.
+# ==============================================================================
 
 echo "🚀 Starting automatic site update from Framer..."
 
